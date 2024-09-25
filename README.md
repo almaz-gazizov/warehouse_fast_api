@@ -39,15 +39,15 @@ docker-compose down
 
 ### Эндпоинты для товаров
 
-Создание товара: `POST /products`
-Получение списка товаров: `GET /products`
-Получение информации о товаре по id: `GET /products/{id}`
-Обновление информации о товаре: `PUT /products/{id}`
-Удаление товара: `DELETE /products/{id}`
+- Создание товара: `POST /products`
+- Получение списка товаров: `GET /products`
+- Получение информации о товаре по id: `GET /products/{id}`
+- Обновление информации о товаре: `PUT /products/{id}`
+- Удаление товара: `DELETE /products/{id}`
 
 ### Эндпоинты для заказов
 
-Создание заказа: `POST /orders`
-Получение списка заказов: `GET /orders`
-Получение информации о заказе по id: `GET /orders/{id}`
-Обновление статуса заказа: `PATCH /orders/{id}/status`
+- Создание заказа: `POST /orders`
+- Получение списка заказов: `GET /orders`
+- Получение информации о заказе по id: `GET /orders/{id}`
+- Обновление статуса заказа: `PATCH /orders/{id}/status`
